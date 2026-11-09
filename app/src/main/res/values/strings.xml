@@ -224,4 +224,22 @@
     <string name="category_image">ক্যাটাগরি ছবি</string>
     <string name="delete_last">শেষটি মুছুন</string>
     <string name="low_battery_warning">ব্যাটারি কম! অনুগ্রহ করে ফোন চার্জে দিন।</string>
+
+    <!-- Auth Strings -->
+    <string name="auth_welcome">স্বাগতম বলতে চাই অ্যাপে</string>
+    <string name="auth_subtitle">আপনার অ্যাকাউন্ট এ লগইন করুন অথবা নতুন অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="auth_email_hint">ইমেইল ঠিকানা</string>
+    <string name="auth_password_hint">পাসওয়ার্ড (কমপক্ষে ৬ অক্ষর)</string>
+    <string name="auth_login_btn">লগইন করুন</string>
+    <string name="auth_register_btn">নতুন অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="auth_guest_btn">গেস্ট হিসেবে ব্যবহার করুন (লগইন ছাড়া)</string>
+    <string name="auth_toggle_register">অ্যাকাউন্ট নেই? নতুন অ্যাকাউন্ট খুলুন</string>
+    <string name="auth_toggle_login">ইতিমধ্যে অ্যাকাউন্ট আছে? লগইন করুন</string>
+    <string name="auth_error_empty">অনুগ্রহ করে ইমেইল এবং পাসওয়ার্ড প্রদান করুন</string>
+    <string name="auth_error_password_length">পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে</string>
+    <string name="auth_success_login">সফলভাবে লগইন হয়েছে!</string>
+    <string name="auth_success_register">নতুন অ্যাকাউন্ট তৈরি হয়েছে!</string>
+    <string name="auth_signout">লগআউট</string>
+    <string name="auth_sync_now">ক্লাউড সিঙ্ক করুন</string>
+    <string name="auth_sync_success">ক্লাউডে ব্যাকআপ সম্পন্ন হয়েছে!</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.farhan.boltechai.ui.settings;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -17,7 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.farhan.boltechai.BolteChaiApp;
 import com.farhan.boltechai.R;
 import com.farhan.boltechai.data.db.AppDatabase;
+import com.farhan.boltechai.data.firebase.FirebaseSyncManager;
 import com.farhan.boltechai.databinding.ActivitySettingsBinding;
+import com.farhan.boltechai.ui.auth.AuthActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -136,13 +139,31 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void setupFirebaseSection() {
-        if (firebaseAuth != null && firebaseAuth.getCurrentUser() != null) {
-            FirebaseUser user = firebaseAuth.getCurrentUser();
-            binding.textFirebaseAccount.setText(getString(R.string.firebase_account) + ": " +
-                    (user.isAnonymous() ? getString(R.string.firebase_anonymous) : user.getEmail()));
+        FirebaseUser user = FirebaseSyncManager.getInstance().getCurrentUser();
+        if (user != null && !user.isAnonymous()) {
+            binding.textFirebaseAccount.setText(getString(R.string.firebase_account) + ": " + user.getEmail());
+            binding.btnAuthAction.setText(R.string.auth_signout);
+            binding.btnAuthAction.setOnClickListener(v -> {
+                FirebaseSyncManager.getInstance().signOut();
+                Toast.makeText(this, R.string.auth_signout, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, AuthActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+            });
         } else {
             binding.textFirebaseAccount.setText(getString(R.string.firebase_account) + ": " + getString(R.string.firebase_anonymous));
+            binding.btnAuthAction.setText(R.string.auth_login_btn);
+            binding.btnAuthAction.setOnClickListener(v -> {
+                Intent intent = new Intent(this, AuthActivity.class);
+                startActivity(intent);
+            });
         }
+
+        binding.btnSyncNow.setOnClickListener(v -> {
+            FirebaseSyncManager.getInstance().syncBoards(this);
+            Toast.makeText(this, R.string.auth_sync_success, Toast.LENGTH_SHORT).show();
+        });
     }
 
     private void setupDeleteData() {

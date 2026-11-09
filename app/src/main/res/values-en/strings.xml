@@ -224,4 +224,22 @@
     <string name="category_image">Category Image</string>
     <string name="delete_last">Delete Last</string>
     <string name="low_battery_warning">Low Battery! Please plug in your device.</string>
+
+    <!-- Auth Strings -->
+    <string name="auth_welcome">Welcome to Bolte Chai</string>
+    <string name="auth_subtitle">Sign in to your account or create a new one</string>
+    <string name="auth_email_hint">Email Address</string>
+    <string name="auth_password_hint">Password (at least 6 characters)</string>
+    <string name="auth_login_btn">Sign In</string>
+    <string name="auth_register_btn">Create Account</string>
+    <string name="auth_guest_btn">Continue as Guest (No Login)</string>
+    <string name="auth_toggle_register">Don\'t have an account? Sign Up</string>
+    <string name="auth_toggle_login">Already have an account? Sign In</string>
+    <string name="auth_error_empty">Please enter email and password</string>
+    <string name="auth_error_password_length">Password must be at least 6 characters</string>
+    <string name="auth_success_login">Successfully logged in!</string>
+    <string name="auth_success_register">Account created successfully!</string>
+    <string name="auth_signout">Sign Out</string>
+    <string name="auth_sync_now">Sync to Cloud</string>
+    <string name="auth_sync_success">Cloud backup successful!</string>
 </resources>

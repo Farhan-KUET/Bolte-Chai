@@ -62,6 +62,12 @@
             android:name=".ui.hospital.HospitalBoardActivity"
             android:exported="false" />
 
+        <!-- Auth Activity (Login / Register / Guest) -->
+        <activity
+            android:name=".ui.auth.AuthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
         <!-- Usage History -->
         <activity
             android:name=".ui.history.UsageHistoryActivity"

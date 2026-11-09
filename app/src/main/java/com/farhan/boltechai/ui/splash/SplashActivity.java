@@ -10,8 +10,11 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.farhan.boltechai.BolteChaiApp;
+import com.farhan.boltechai.data.firebase.FirebaseSyncManager;
 import com.farhan.boltechai.databinding.ActivitySplashBinding;
+import com.farhan.boltechai.ui.auth.AuthActivity;
 import com.farhan.boltechai.ui.main.MainActivity;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -34,10 +37,18 @@ public class SplashActivity extends AppCompatActivity {
         binding = ActivitySplashBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        // Delay and then start MainActivity
+        // Delay and then check auth / start appropriate activity
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             // Lab Topic: Explicit Intent
-            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            FirebaseUser user = FirebaseSyncManager.getInstance().getCurrentUser();
+            Intent intent;
+            if (user != null) {
+                // User is already signed in
+                intent = new Intent(SplashActivity.this, MainActivity.class);
+            } else {
+                // First time or signed out: go to Login/Register screen
+                intent = new Intent(SplashActivity.this, AuthActivity.class);
+            }
             startActivity(intent);
             // Finish so user cannot return to splash
             finish();

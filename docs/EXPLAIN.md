@@ -129,6 +129,15 @@ Bolte Chai is an offline-first Augmentative and Alternative Communication (AAC) 
 
 ### 2.4 User Interface Activities
 
+#### `AuthActivity.java`
+- **Purpose:** Manages Firebase Authentication for user accounts and guest mode.
+- **Lab Topics:** Firebase Auth, Firestore sync, Explicit Intent, Material UI.
+- **Features:**
+  - Provides a clean user interface with toggleable Sign In and Sign Up modes.
+  - Supports "Continue as Guest" (anonymous login) for instant offline or emergency access.
+  - Automatically triggers cloud sync on login or account creation to restore board data.
+  - Shows loading progress and error handling in both Bangla and English.
+
 #### `SplashActivity.java`
 - **Purpose:** Application entry point.
 - **Features:**

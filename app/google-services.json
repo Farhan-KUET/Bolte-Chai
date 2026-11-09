@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "boltechai-placeholder",
-    "storage_bucket": "boltechai-placeholder.appspot.com"
+    "project_number": "142389121568",
+    "project_id": "boltechai-f7312",
+    "storage_bucket": "boltechai-f7312.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "mobilesdk_app_id": "1:142389121568:android:b732b1cc831ae5d3e4a245",
         "android_client_info": {
           "package_name": "com.farhan.boltechai"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyPLACEHOLDER_REPLACE_WITH_REAL_KEY"
+          "current_key": "AIzaSyCMF2F6ueiEGqG3DQExrHKNOke4zf-7CKQ"
         }
       ],
       "services": {
