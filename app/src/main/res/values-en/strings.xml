@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bolte Chai</string>
+    <string name="developer_credit">Developed by Farhan Shariar</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Food</string>
+    <string name="cat_needs">Needs</string>
+    <string name="cat_feelings">Feelings</string>
+    <string name="cat_family">Family</string>
+    <string name="cat_school">School</string>
+    <string name="cat_market">Market</string>
+    <string name="cat_mosque">Mosque</string>
+    <string name="cat_hospital">Hospital</string>
+
+    <!-- Food Items -->
+    <string name="food_rice">Rice</string>
+    <string name="food_water">Water</string>
+    <string name="food_milk">Milk</string>
+    <string name="food_bread">Bread</string>
+    <string name="food_lentils">Lentils</string>
+    <string name="food_fish">Fish</string>
+    <string name="food_chicken">Chicken</string>
+    <string name="food_fruit">Fruit</string>
+    <string name="food_tea">Tea</string>
+    <string name="food_biscuit">Biscuit</string>
+
+    <!-- Needs Items -->
+    <string name="needs_toilet">Toilet</string>
+    <string name="needs_sleep">Sleep</string>
+    <string name="needs_help">Help</string>
+    <string name="needs_pain">Pain</string>
+    <string name="needs_medicine">Medicine</string>
+    <string name="needs_clothes">Clothes</string>
+    <string name="needs_shoes">Shoes</string>
+    <string name="needs_glasses">Glasses</string>
+
+    <!-- Feelings Items -->
+    <string name="feelings_happy">Happy</string>
+    <string name="feelings_sad">Sad</string>
+    <string name="feelings_angry">Angry</string>
+    <string name="feelings_fear">Fear</string>
+    <string name="feelings_tired">Tired</string>
+    <string name="feelings_good">Good</string>
+    <string name="feelings_bad">Bad</string>
+    <string name="feelings_love">Love</string>
+
+    <!-- Family Items -->
+    <string name="family_mother">Mother</string>
+    <string name="family_father">Father</string>
+    <string name="family_brother">Brother</string>
+    <string name="family_sister">Sister</string>
+    <string name="family_grandfather">Grandfather</string>
+    <string name="family_grandmother">Grandmother</string>
+    <string name="family_maternal_grandfather">Maternal Grandfather</string>
+    <string name="family_maternal_grandmother">Maternal Grandmother</string>
+
+    <!-- School Items -->
+    <string name="school_teacher">Teacher</string>
+    <string name="school_book">Book</string>
+    <string name="school_pen">Pen</string>
+    <string name="school_study">Study</string>
+    <string name="school_play">Play</string>
+    <string name="school_friend">Friend</string>
+    <string name="school_holiday">Holiday</string>
+    <string name="school_class">Class</string>
+
+    <!-- Market Items -->
+    <string name="market_buy">Buy</string>
+    <string name="market_price">Price</string>
+    <string name="market_money">Money</string>
+    <string name="market_vegetables">Vegetables</string>
+    <string name="market_fruit">Fruit</string>
+    <string name="market_sweets">Sweets</string>
+    <string name="market_clothes">Clothes</string>
+    <string name="market_shoes">Shoes</string>
+
+    <!-- Mosque Items -->
+    <string name="mosque_prayer">Prayer</string>
+    <string name="mosque_ablution">Ablution</string>
+    <string name="mosque_call">Call to Prayer</string>
+    <string name="mosque_quran">Quran</string>
+    <string name="mosque_mat">Prayer Mat</string>
+    <string name="mosque_cap">Cap</string>
+    <string name="mosque_friday">Friday</string>
+    <string name="mosque_supplication">Supplication</string>
+
+    <!-- Hospital / Body Parts -->
+    <string name="hospital_head">Head</string>
+    <string name="hospital_eye">Eye</string>
+    <string name="hospital_ear">Ear</string>
+    <string name="hospital_nose">Nose</string>
+    <string name="hospital_teeth">Teeth</string>
+    <string name="hospital_throat">Throat</string>
+    <string name="hospital_chest">Chest</string>
+    <string name="hospital_stomach">Stomach</string>
+    <string name="hospital_back">Back</string>
+    <string name="hospital_hand">Hand</string>
+    <string name="hospital_foot">Foot/Leg</string>
+    <string name="hospital_knee">Knee</string>
+    
+    <string name="hospital_phrase_my_hurts">My %s hurts</string>
+
+    <!-- Common UI Strings -->
+    <string name="ui_speak">Speak</string>
+    <string name="ui_delete">Delete</string>
+    <string name="ui_clear_all">Clear All</string>
+    <string name="ui_settings">Settings</string>
+    <string name="ui_about">About</string>
+    <string name="ui_enter_pin">Enter PIN</string>
+    <string name="ui_privacy_policy">Privacy Policy</string>
+    <string name="ui_delete_all_data">Delete All Data</string>
+    <string name="ui_history">History</string>
+    <string name="ui_share">Share</string>
+    <string name="ui_backup">Backup</string>
+    <string name="ui_scanning">Scanning</string>
+    <string name="ui_speed">Speed</string>
+    <string name="ui_grid_size">Grid Size</string>
+    <string name="ui_language">Language</string>
+    <string name="ui_bangla">Bangla</string>
+    <string name="ui_english">English</string>
+    <string name="ui_bangla_voice_not_found">Bangla voice not found</string>
+    <string name="ui_warning">Warning</string>
+    <string name="ui_low_battery">Low Battery</string>
+    <string name="ui_camera">Camera</string>
+    <string name="ui_gallery">Gallery</string>
+    <string name="ui_label">Label</string>
+    <string name="ui_category">Category</string>
+    <string name="ui_save">Save</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_search">Search</string>
+    <string name="ui_attribution">Attribution</string>
+    <string name="ui_most_used">Most Used</string>
+    
+    <!-- Sentence strip -->
+    <string name="ui_build_sentence">Build a sentence</string>
+    
+    <!-- Scanning Mode -->
+    <string name="scanning_mode_on">Scanning mode on</string>
+    <string name="scanning_mode_off">Scanning mode off</string>
+    
+    <!-- Firebase -->
+    <string name="firebase_login">Login</string>
+    <string name="firebase_anonymous">Anonymous</string>
+    <string name="firebase_email">Email</string>
+    
+    <!-- Messages -->
+    <string name="msg_tts_missing">Bangla voice is not installed. Please install Google TTS from settings and download the Bangla language.</string>
+    <string name="msg_privacy">This app does not collect any personal information.</string>
+    <string name="msg_about_text">Bolte Chai is a Bangla picture-based communication app designed for people who cannot speak.</string>
+
+    <!-- Aliases and UI helpers -->
+    <string name="language">Language</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="history">History</string>
+    <string name="search">Search</string>
+    <string name="speak">Speak</string>
+    <string name="delete">Delete</string>
+    <string name="clear_all">Clear All</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="label">Label</string>
+    <string name="category">Category</string>
+    <string name="scanning">Scanning</string>
+    <string name="speed">Speed</string>
+    <string name="grid_size">Grid Size</string>
+    <string name="bangla">Bangla</string>
+    <string name="english">English</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="delete_all_data">Delete All Data</string>
+    <string name="attribution">Attribution</string>
+    <string name="most_used">Most Used</string>
+    <string name="hospital_board">Hospital</string>
+    <string name="hospital_board_title">Hospital Board</string>
+    <string name="body_diagram">Body diagram</string>
+    <string name="body_part_head">Head</string>
+    <string name="body_part_eyes">Eyes</string>
+    <string name="body_part_ears">Ears</string>
+    <string name="body_part_nose">Nose</string>
+    <string name="body_part_teeth">Teeth</string>
+    <string name="body_part_throat">Throat</string>
+    <string name="body_part_chest">Chest</string>
+    <string name="body_part_stomach">Stomach</string>
+    <string name="body_part_back">Back</string>
+    <string name="body_part_hands">Hands</string>
+    <string name="body_part_feet">Feet</string>
+    <string name="body_part_knees">Knees</string>
+    <string name="error_label_required">Label is required</string>
+    <string name="error_photo_required">Photo is required</string>
+    <string name="service_not_bound">Speech service is not ready</string>
+    <string name="bangla_voice_missing">Bangla voice is missing</string>
+    <string name="edit_tile">Edit Tile</string>
+    <string name="tile_image_preview">Tile Image Preview</string>
+    <string name="tile_label">Tile Label</string>
+    <string name="select_category">Select Category</string>
+    <string name="language_toggle">Switch Language (Bangla / English)</string>
+    <string name="scanning_mode">Scanning Mode</string>
+    <string name="scanning_speed">Scanning Speed</string>
+    <string name="caregiver_pin">Caregiver PIN</string>
+    <string name="firebase_account">Account Status</string>
+    <string name="delete_data_title">Delete All Data</string>
+    <string name="delete_data_message">Are you sure you want to delete all saved data?</string>
+    <string name="confirm">Confirm</string>
+    <string name="settings_title">Settings</string>
+    <string name="tile_image">Tile Image</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="about_description">Bolte Chai is an open augmentative and alternative communication (AAC) app for autism and speech-impaired individuals.</string>
+    <string name="attribution_info">Pictograms provided by ARASAAC (CC BY-NC-SA 4.0). Special thanks to all open-source contributors.</string>
+    <string name="privacy_policy_link">Privacy Policy: This app works offline and never collects or sends any personal information.</string>
+    <string name="developer_watermark">Developed by Farhan Shariar</string>
+    <string name="search_pictogram">Search Pictograms</string>
+    <string name="search_hint">Enter pictogram name (e.g., water)</string>
+    <string name="pictogram_image">Pictogram Image</string>
+    <string name="enter_pin_title">Enter PIN</string>
+    <string name="pin">PIN</string>
+    <string name="warning">Warning</string>
+    <string name="tts_missing_title">Bangla Voice Missing</string>
+    <string name="tts_missing_message">Bangla Text-to-Speech voice data is not installed. Please download Bangla voice data from Google TTS settings.</string>
+    <string name="add_custom_tile">Add Custom Tile</string>
+    <string name="category_image">Category Image</string>
+    <string name="delete_last">Delete Last</string>
+    <string name="low_battery_warning">Low Battery! Please plug in your device.</string>
+</resources>

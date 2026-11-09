@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Lab Topic: ContentProvider — FileProvider paths for camera photos and shared images -->
+    <files-path name="tile_images" path="tile_images/" />
+    <cache-path name="shared_images" path="shared_images/" />
+    <external-files-path name="export" path="export/" />
+</paths>

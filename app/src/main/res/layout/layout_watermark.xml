@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_watermark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/developer_credit"
+    android:textSize="10sp"
+    android:alpha="0.5"
+    android:gravity="center"
+    android:clickable="false"
+    android:focusable="false"
+    android:importantForAccessibility="no"
+    android:padding="@dimen/padding_small"
+    android:layout_gravity="bottom" />

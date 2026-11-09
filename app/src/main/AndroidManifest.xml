@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <permission
+        android:name="com.farhan.boltechai.permission.READ_BOARDS"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name=".BolteChaiApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BolteChai"
+        android:localeConfig="@xml/locales_config"
+        tools:targetApi="35">
+
+        <!-- Lab Topic: Activity lifecycle — SplashActivity -->
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BolteChai.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Lab Topic: Activity lifecycle — MainActivity -->
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Board Activity -->
+        <activity
+            android:name=".ui.board.BoardActivity"
+            android:exported="false" />
+
+        <!-- Own Photo / Tile Editor (Lab Topic: Implicit Intent for camera/gallery) -->
+        <activity
+            android:name=".ui.editor.TileEditorActivity"
+            android:exported="false" />
+
+        <!-- Hospital Body Board -->
+        <activity
+            android:name=".ui.hospital.HospitalBoardActivity"
+            android:exported="false" />
+
+        <!-- Usage History -->
+        <activity
+            android:name=".ui.history.UsageHistoryActivity"
+            android:exported="false" />
+
+        <!-- Settings -->
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:exported="false" />
+
+        <!-- About / Attribution / Privacy -->
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:exported="false" />
+
+        <!-- Pictogram Search -->
+        <activity
+            android:name=".ui.pictogram.PictogramSearchActivity"
+            android:exported="false" />
+
+        <!-- Lab Topic: Service — Bound SpeechService for TTS queue -->
+        <service
+            android:name=".service.SpeechService"
+            android:exported="false" />
+
+        <!-- Lab Topic: BroadcastReceiver — Low battery warning -->
+        <receiver
+            android:name=".receiver.LowBatteryReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Lab Topic: BroadcastReceiver — Network connectivity sync -->
+        <receiver
+            android:name=".receiver.NetworkReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Lab Topic: ContentProvider — FileProvider for sharing images -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Lab Topic: ContentProvider — Custom read-only provider for board names -->
+        <provider
+            android:name=".provider.BoardContentProvider"
+            android:authorities="${applicationId}.boards"
+            android:exported="true"
+            android:readPermission="com.farhan.boltechai.permission.READ_BOARDS" />
+
+    </application>
+
+</manifest>

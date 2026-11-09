@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">বলতে চাই</string>
+    <string name="developer_credit">Developed by Farhan Shariar</string>
+
+    <!-- Categories -->
+    <string name="cat_food">খাবার</string>
+    <string name="cat_needs">প্রয়োজন</string>
+    <string name="cat_feelings">অনুভূতি</string>
+    <string name="cat_family">পরিবার</string>
+    <string name="cat_school">স্কুল</string>
+    <string name="cat_market">বাজার</string>
+    <string name="cat_mosque">মসজিদ</string>
+    <string name="cat_hospital">হাসপাতাল</string>
+
+    <!-- Food Items -->
+    <string name="food_rice">ভাত</string>
+    <string name="food_water">পানি</string>
+    <string name="food_milk">দুধ</string>
+    <string name="food_bread">রুটি</string>
+    <string name="food_lentils">ডাল</string>
+    <string name="food_fish">মাছ</string>
+    <string name="food_chicken">মুরগি</string>
+    <string name="food_fruit">ফল</string>
+    <string name="food_tea">চা</string>
+    <string name="food_biscuit">বিস্কুট</string>
+
+    <!-- Needs Items -->
+    <string name="needs_toilet">টয়লেট</string>
+    <string name="needs_sleep">ঘুম</string>
+    <string name="needs_help">সাহায্য</string>
+    <string name="needs_pain">ব্যথা</string>
+    <string name="needs_medicine">ওষুধ</string>
+    <string name="needs_clothes">কাপড়</string>
+    <string name="needs_shoes">জুতা</string>
+    <string name="needs_glasses">চশমা</string>
+
+    <!-- Feelings Items -->
+    <string name="feelings_happy">খুশি</string>
+    <string name="feelings_sad">দুঃখ</string>
+    <string name="feelings_angry">রাগ</string>
+    <string name="feelings_fear">ভয়</string>
+    <string name="feelings_tired">ক্লান্ত</string>
+    <string name="feelings_good">ভালো</string>
+    <string name="feelings_bad">খারাপ</string>
+    <string name="feelings_love">ভালোবাসা</string>
+
+    <!-- Family Items -->
+    <string name="family_mother">মা</string>
+    <string name="family_father">বাবা</string>
+    <string name="family_brother">ভাই</string>
+    <string name="family_sister">বোন</string>
+    <string name="family_grandfather">দাদা</string>
+    <string name="family_grandmother">দাদি</string>
+    <string name="family_maternal_grandfather">নানা</string>
+    <string name="family_maternal_grandmother">নানি</string>
+
+    <!-- School Items -->
+    <string name="school_teacher">শিক্ষক</string>
+    <string name="school_book">বই</string>
+    <string name="school_pen">কলম</string>
+    <string name="school_study">পড়া</string>
+    <string name="school_play">খেলা</string>
+    <string name="school_friend">বন্ধু</string>
+    <string name="school_holiday">ছুটি</string>
+    <string name="school_class">ক্লাস</string>
+
+    <!-- Market Items -->
+    <string name="market_buy">কেনা</string>
+    <string name="market_price">দাম</string>
+    <string name="market_money">টাকা</string>
+    <string name="market_vegetables">সবজি</string>
+    <string name="market_fruit">ফল</string>
+    <string name="market_sweets">মিষ্টি</string>
+    <string name="market_clothes">কাপড়</string>
+    <string name="market_shoes">জুতা</string>
+
+    <!-- Mosque Items -->
+    <string name="mosque_prayer">নামাজ</string>
+    <string name="mosque_ablution">ওজু</string>
+    <string name="mosque_call">আজান</string>
+    <string name="mosque_quran">কুরআন</string>
+    <string name="mosque_mat">জায়নামাজ</string>
+    <string name="mosque_cap">টুপি</string>
+    <string name="mosque_friday">জুম্মা</string>
+    <string name="mosque_supplication">দোয়া</string>
+
+    <!-- Hospital / Body Parts -->
+    <string name="hospital_head">মাথা</string>
+    <string name="hospital_eye">চোখ</string>
+    <string name="hospital_ear">কান</string>
+    <string name="hospital_nose">নাক</string>
+    <string name="hospital_teeth">দাঁত</string>
+    <string name="hospital_throat">গলা</string>
+    <string name="hospital_chest">বুক</string>
+    <string name="hospital_stomach">পেট</string>
+    <string name="hospital_back">পিঠ</string>
+    <string name="hospital_hand">হাত</string>
+    <string name="hospital_foot">পা</string>
+    <string name="hospital_knee">হাঁটু</string>
+    
+    <string name="hospital_phrase_my_hurts">আমার %s ব্যথা করছে</string>
+
+    <!-- Common UI Strings -->
+    <string name="ui_speak">বলুন</string>
+    <string name="ui_delete">মুছুন</string>
+    <string name="ui_clear_all">সব মুছুন</string>
+    <string name="ui_settings">সেটিংস</string>
+    <string name="ui_about">সম্পর্কে</string>
+    <string name="ui_enter_pin">পিন দিন</string>
+    <string name="ui_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="ui_delete_all_data">সব ডাটা মুছুন</string>
+    <string name="ui_history">ইতিহাস</string>
+    <string name="ui_share">শেয়ার</string>
+    <string name="ui_backup">ব্যাকআপ</string>
+    <string name="ui_scanning">স্ক্যানিং</string>
+    <string name="ui_speed">গতি</string>
+    <string name="ui_grid_size">গ্রিড আকার</string>
+    <string name="ui_language">ভাষা</string>
+    <string name="ui_bangla">বাংলা</string>
+    <string name="ui_english">ইংরেজি</string>
+    <string name="ui_bangla_voice_not_found">বাংলা ভয়েস পাওয়া যায়নি</string>
+    <string name="ui_warning">সতর্কতা</string>
+    <string name="ui_low_battery">ব্যাটারি কম</string>
+    <string name="ui_camera">ক্যামেরা</string>
+    <string name="ui_gallery">গ্যালারি</string>
+    <string name="ui_label">লেবেল</string>
+    <string name="ui_category">ক্যাটাগরি</string>
+    <string name="ui_save">সংরক্ষণ</string>
+    <string name="ui_cancel">বাতিল</string>
+    <string name="ui_search">অনুসন্ধান</string>
+    <string name="ui_attribution">অ্যাট্রিবিউশন</string>
+    <string name="ui_most_used">সবচেয়ে বেশি ব্যবহৃত</string>
+    
+    <!-- Sentence strip -->
+    <string name="ui_build_sentence">বাক্য তৈরি করুন</string>
+    
+    <!-- Scanning Mode -->
+    <string name="scanning_mode_on">স্ক্যানিং মোড চালু</string>
+    <string name="scanning_mode_off">স্ক্যানিং মোড বন্ধ</string>
+    
+    <!-- Firebase -->
+    <string name="firebase_login">লগইন</string>
+    <string name="firebase_anonymous">অ্যানোনিমাস</string>
+    <string name="firebase_email">ইমেইল</string>
+    
+    <!-- Messages -->
+    <string name="msg_tts_missing">বাংলা ভয়েস ইনস্টল করা নেই। সেটিংস থেকে Google TTS ইনস্টল করুন এবং বাংলা ভাষা ডাউনলোড করুন।</string>
+    <string name="msg_privacy">এই অ্যাপ কোনো ব্যক্তিগত তথ্য সংগ্রহ করে না।</string>
+    <string name="msg_about_text">বলতে চাই একটি বাংলা ছবি-ভিত্তিক যোগাযোগ অ্যাপ যা কথা বলতে না পারা মানুষদের জন্য তৈরি।</string>
+
+    <!-- Aliases and UI helpers -->
+    <string name="language">ভাষা</string>
+    <string name="settings">সেটিংস</string>
+    <string name="about">সম্পর্কে</string>
+    <string name="history">ইতিহাস</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="speak">বলুন</string>
+    <string name="delete">মুছুন</string>
+    <string name="clear_all">সব মুছুন</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="cancel">বাতিল</string>
+    <string name="camera">ক্যামেরা</string>
+    <string name="gallery">গ্যালারি</string>
+    <string name="label">লেবেল</string>
+    <string name="category">ক্যাটাগরি</string>
+    <string name="scanning">স্ক্যানিং</string>
+    <string name="speed">গতি</string>
+    <string name="grid_size">গ্রিড আকার</string>
+    <string name="bangla">বাংলা</string>
+    <string name="english">ইংরেজি</string>
+    <string name="enter_pin">পিন দিন</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="delete_all_data">সব ডাটা মুছুন</string>
+    <string name="attribution">অ্যাট্রিবিউশন</string>
+    <string name="most_used">সবচেয়ে বেশি ব্যবহৃত</string>
+    <string name="hospital_board">হাসপাতাল</string>
+    <string name="hospital_board_title">হাসপাতাল</string>
+    <string name="body_diagram">শরীরের চিত্র</string>
+    <string name="body_part_head">মাথা</string>
+    <string name="body_part_eyes">চোখ</string>
+    <string name="body_part_ears">কান</string>
+    <string name="body_part_nose">নাক</string>
+    <string name="body_part_teeth">দাঁত</string>
+    <string name="body_part_throat">গলা</string>
+    <string name="body_part_chest">বুক</string>
+    <string name="body_part_stomach">পেট</string>
+    <string name="body_part_back">পিঠ</string>
+    <string name="body_part_hands">হাত</string>
+    <string name="body_part_feet">পা</string>
+    <string name="body_part_knees">হাঁটু</string>
+    <string name="error_label_required">লেবেল আবশ্যক</string>
+    <string name="error_photo_required">ছবি আবশ্যক</string>
+    <string name="service_not_bound">স্পিচ সার্ভিস প্রস্তুত নয়</string>
+    <string name="bangla_voice_missing">বাংলা ভয়েস পাওয়া যায়নি</string>
+    <string name="edit_tile">টাইল সম্পাদনা</string>
+    <string name="tile_image_preview">ছবির প্রিভিউ</string>
+    <string name="tile_label">টাইলের নাম</string>
+    <string name="select_category">ক্যাটাগরি নির্বাচন করুন</string>
+    <string name="language_toggle">ভাষা পরিবর্তন (বাংলা / English)</string>
+    <string name="scanning_mode">স্ক্যানিং মোড</string>
+    <string name="scanning_speed">স্ক্যানিং গতি</string>
+    <string name="caregiver_pin">অভিভাবক পিন (PIN)</string>
+    <string name="firebase_account">অ্যাকাউন্ট স্ট্যাটাস</string>
+    <string name="delete_data_title">সব ডাটা মুছুন</string>
+    <string name="delete_data_message">আপনি কি নিশ্চিত যে আপনি সমস্ত সংরক্ষিত ডেটা মুছে ফেলতে চান?</string>
+    <string name="confirm">নিশ্চিত করুন</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="tile_image">টাইলের ছবি</string>
+    <string name="app_version">সংস্করণ ১.০.০</string>
+    <string name="about_description">বলতে চাই একটি উন্মুক্ত অটিজম ও বাকপ্রতিবন্ধী সহায়ক যোগাযোগ অ্যাপ (AAC)। ছবি স্পর্শ করে সহজে বাক্য তৈরি করা যায়।</string>
+    <string name="attribution_info">পিকটোগ্রাম সৌজন্যে: ARASAAC (CC BY-NC-SA 4.0)। বিশেষ ধন্যবাদ সকল ওপেন সোর্স অবদানকারীদের।</string>
+    <string name="privacy_policy_link">গোপনীয়তা নীতি: এই অ্যাপ সম্পূর্ণ অফলাইন এবং কোনো ব্যক্তিগত তথ্য সংগ্রহ বা প্রেরণ করে না।</string>
+    <string name="developer_watermark">Developed by Farhan Shariar</string>
+    <string name="search_pictogram">পিকটোগ্রাম খুঁজুন</string>
+    <string name="search_hint">পিকটোগ্রামের নাম লিখুন (যেমন: water)</string>
+    <string name="pictogram_image">পিকটোগ্রাম ছবি</string>
+    <string name="enter_pin_title">পিন প্রবেশ করান</string>
+    <string name="pin">পিন</string>
+    <string name="warning">সতর্কতা</string>
+    <string name="tts_missing_title">বাংলা ভয়েস নেই</string>
+    <string name="tts_missing_message">বাংলা টেক্সট-টু-স্পিচ ভয়েস পাওয়া যায়নি। অনুগ্রহ করে গুগল টিটিএস সেটিংস থেকে বাংলা ভয়েস ডাটা ডাউনলোড করুন।</string>
+    <string name="add_custom_tile">নতুন টাইল যোগ করুন</string>
+    <string name="category_image">ক্যাটাগরি ছবি</string>
+    <string name="delete_last">শেষটি মুছুন</string>
+    <string name="low_battery_warning">ব্যাটারি কম! অনুগ্রহ করে ফোন চার্জে দিন।</string>
+</resources>

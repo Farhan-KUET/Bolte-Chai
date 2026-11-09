@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_names">
+        <item>@string/cat_food</item>
+        <item>@string/cat_needs</item>
+        <item>@string/cat_feelings</item>
+        <item>@string/cat_family</item>
+        <item>@string/cat_school</item>
+        <item>@string/cat_market</item>
+        <item>@string/cat_mosque</item>
+        <item>@string/cat_hospital</item>
+    </string-array>
+    
+    <string-array name="category_keys">
+        <item>food</item>
+        <item>needs</item>
+        <item>feelings</item>
+        <item>family</item>
+        <item>school</item>
+        <item>market</item>
+        <item>mosque</item>
+        <item>hospital</item>
+    </string-array>
+    
+    <string-array name="grid_size_options">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="scanning_speed_options">
+        <item>Slow</item>
+        <item>Medium</item>
+        <item>Fast</item>
+    </string-array>
+</resources>
